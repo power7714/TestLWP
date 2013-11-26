@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:key="rajawalisharedprefs"
+    android:title="@string/settings_title" >
+
+    <PreferenceCategory>
+        <com.curtrostudios.testlwp.SeekBarPreference 
+            android:enabled="true" 
+            android:max="10000"
+            android:title="@string/settings_rotate_pref" 
+            android:key="pref_rotation_rate" 
+            android:summary="@string/settings_rotate_pref_summary" 
+            android:defaultValue="2000" />
+        <com.curtrostudios.testlwp.SeekBarPreference 
+            android:enabled="true"
+            android:max="4" 
+            android:title="@string/settings_light_pref" 
+            android:key="pref_light_intensity" 
+            android:summary="@string/settings_light_pref_summary" 
+            android:defaultValue="1" />
+        <EditTextPreference
+            android:title="text"
+            android:key="pref_text">
+            
+        </EditTextPreference>
+        <com.curtrostudios.testlwp.SocialPref
+            android:key="social_pref">
+        </com.curtrostudios.testlwp.SocialPref>
+    </PreferenceCategory>
+    
+    </PreferenceScreen>

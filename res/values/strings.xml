@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test LWP</string>
+	<string name="lwp_name">Test LWP</string>
+	<string name="lwp_desc">Used for testing settings with Rajawali framework.</string>
+	<string name="lwp_author">©2013 CurTro Studios</string>
+	<string name="picker_toast_prefix">Choose \"</string>
+    <string name="picker_toast_suffix">\" from the list of live wallpapers</string>
+	<string name="settings_title">Test Settings</string>
+	
+	<string name="settings_light_pref">Light Intensity</string>
+    <string name="settings_light_pref_summary">Customise the intensity of the light</string>
+    <string name="settings_speed_number">Rotation Speed</string>
+    <string name="settings_speed_number_summary">Customise the speed of the rotation</string>
+    <string name="settings_rotate_pref">Rotation Speed</string>
+    <string name="settings_rotate_pref_summary">Customise how fast the model rotates</string>
+    
+    <string name="SocialTitle">Social</string>
+    <string name="SocialSummary">Connect with us</string>
+    <string name="Social_GooglePlus">Google+</string>
+    <string name="Social_Facebook">Facebook</string>
+    <string name="Social_Twitter">Twitter</string>
+    <string name="Social_YouTube">YouTube</string>
+    <string name="Cancel">Cancel</string>
+
+</resources>
